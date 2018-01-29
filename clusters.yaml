@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: fireman29-hasura
+  data: null
+  kubeContext: fireman29
+  name: fireman29
